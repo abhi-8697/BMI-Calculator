@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins","sans-serif";
+    transition: 0.4s ease;
+    text-decoration: none;
+    border: 0px;
+    color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+.landing-page{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(img/bg.jpg);
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3.3% 10%;
+}
+.nav-items a{
+    padding: 0px 10px;
+    margin: 0px 10px;
+    color: rgb(255, 255, 255);
+}
+.nav-items a:hover{
+    font-size: 1.3rem;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5.3rem;
+    background-color: rgb(26 29 32 / 46%);
+    color: rgb(17 17 22);
+    width: 50%;
+    margin: auto;
+    border-radius: 30px;
+    box-shadow: 10px 10px 65px;
+}
+p{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.input{
+    margin:20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    font-weight: 700;
+    border-radius: 3px;
+    height: 30px;
+    width: 340px;
+    color: black;
+    padding: 20px;
+}
+input:hover{
+    transform: scale(1.2);
+}
+.btn{
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: 0px;
+    font-weight: 600;
+    width: 130px;
+}
+.btn a{
+    color: black;
+}
+button:hover{
+    transform: scale(1.2);
+}
+
+.bmi-results{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:2% 20%;
+}
+.margin{
+    margin:20px;
+}
+.result-page{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(img/bg-2.jpg);
+    background-size: cover;
+}
+.result-page button{
+    color: rgb(26, 21, 21);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 1rem;
+    display: inline-block;
+    margin: 23px 0;
+}
+.result-page a{
+    color: black;
+}
+.bmi-results .left-container img{
+    height: 50vh;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+.right-container h1{
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-size: 2.7rem;
+}
+.right-container p{
+    font-size: 1.2rem;
+}
